@@ -1,0 +1,45 @@
+body {
+    background: gainsboro;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+.header {
+    background: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+span {
+    color: rgb(128, 130, 131);
+}
+h1 {
+    margin: 0;
+}
+
+div.feed {
+    width: 500px;
+    margin: auto;
+}
+div.post {
+    margin-top: 15px;
+}
+div.post .postheader div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post .postheader div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+}
+h2,p {
+    padding: 10px;
+    margin: 0;
+}
+
+.post {
+    background: white;
+}
